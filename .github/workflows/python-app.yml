@@ -26,6 +26,6 @@ jobs:
           pip install pytest
           pip install -r requirements.txt  # Replace with your requirements file if applicable
 
-      - name: Test with pytest
+      - name: Test with unittest
         run: |
-          pytest test_your_flask_script.py  # Run tests using pytest against test_app.py
+          unittest test_your_flask_script.py  # Run tests using pytest against test_app.py
